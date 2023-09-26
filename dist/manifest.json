@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "My Extension",
+  "version": "1.0.0",
+  "description": "init demo extension",
+  "host_permissions": ["*://zenquotes.io/*"],
+  "action": {
+    "default_icon": {
+      "16": "images/logo.png",
+      "32": "images/logo.png",
+      "48": "images/logo.png"
+    },
+    "default_popup": "popup.html"
+  }
+}
